@@ -1,0 +1,45 @@
+// 🚗 Anti Sleep Detector for Driver Drowsiness
+// 👨‍💻 Developed by Mohamed Imraan (Pain Codes)
+
+const int blinkPin = 2;      // Eye blink sensor input
+const int motorPin = 13;     // Motor (vehicle simulation)
+const int buzzerPin = 12;    // Buzzer for alert
+
+long time = 0;
+
+void setup() {
+  pinMode(motorPin, OUTPUT);
+  pinMode(buzzerPin, OUTPUT);
+  pinMode(blinkPin, INPUT);
+
+  digitalWrite(motorPin, HIGH);  // Motor ON initially
+}
+
+void loop() {
+
+  // Check if eyes are closed (drowsiness detected)
+  if (!digitalRead(blinkPin)) {
+    time = millis();
+
+    while (!digitalRead(blinkPin)) {
+      digitalWrite(buzzerPin, LOW);   // Activate buzzer
+      digitalWrite(motorPin, LOW);    // Stop motor
+      delay(1000);
+    }
+  }
+
+  else {
+    if (TimeDelay() >= 3)
+      digitalWrite(buzzerPin, HIGH);  // Stop buzzer after delay
+
+    if (TimeDelay() >= 4)
+      digitalWrite(motorPin, HIGH);   // Restart motor
+  }
+}
+
+// Function to calculate delay time in seconds
+int TimeDelay() {
+  long t = millis() - time;
+  t = t / 1000;
+  return t;
+}
