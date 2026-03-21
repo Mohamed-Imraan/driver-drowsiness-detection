@@ -113,7 +113,6 @@ Sensor → Arduino → Decision Making → Buzzer Alert + Motor Control
 ## 🚀 Tech Stack
 
 <p>
-  <img width="48" height="48" src="https://img.icons8.com/color/48/c-programming.png" alt="c-programming"/>
   <img width="48" height="48" src="https://img.icons8.com/color/48/c-plus-plus-logo.png" alt="c-plus-plus-logo"/>
 </p>
 
