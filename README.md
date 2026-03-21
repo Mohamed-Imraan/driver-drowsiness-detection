@@ -132,8 +132,9 @@ Tech Content Creator
 ## ⭐ Support
 
 If you like this project:
-- ⭐ Star this repository  
+- ⭐ Star this repository
 - 🔗 Share with others  
-- 💬 Give feedback  
+- 💬 Give feedback
+- Follow me to get valuable resources
 
 ---
