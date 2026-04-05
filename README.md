@@ -1,6 +1,6 @@
-# 🚗 Driver Drowsiness Detection System
+# 🚘 Driver Drowsiness Detection System
 
-> 🚀 A real-time embedded safety system designed to detect driver fatigue and prevent accidents.
+>  A real-time embedded safety system designed to detect driver fatigue and prevent accidents.
 
 ---
 
@@ -49,16 +49,16 @@ This system is designed to reduce road accidents caused by driver fatigue by pro
 - Arduino IDE  
 
 ---
-
 ## ⚙️ Working Principle
+<table>
+  <tr><td>
+1. The eye blink sensor continuously monitors the driver's eye movement  <br>
+2. If the eyes remain closed beyond a threshold time, drowsiness is detected   <br>
+3. The Arduino processes the signal from the sensor   <br>
+4. A buzzer is activated to alert the driver   <br>
+5. The relay module cuts off the motor (simulating vehicle stop)  </td>
+<td><img width="100" height="100" src="https://img.icons8.com/plasticine/100/car--v1.png" alt="car--v1"/></td> </tr></table>
 
-1. The eye blink sensor continuously monitors the driver's eye movement  
-2. If the eyes remain closed beyond a threshold time, drowsiness is detected  
-3. The Arduino processes the signal from the sensor  
-4. A buzzer is activated to alert the driver  
-5. The relay module cuts off the motor (simulating vehicle stop)  
-
----
 
 ## 🔄 System Flow
 
@@ -124,17 +124,7 @@ Sensor → Arduino → Decision Making → Buzzer Alert + Motor Control
 ## 👨‍💻 Author
 
 **Mohamed Imraan**  
-Founder - Pain Codes  
+Founder - <a href="https://github.com/pain-codes">Pain Codes </a><br>
 Tech Content Creator  
-
----
-
-## ⭐ Support
-
-If you like this project:
-- ⭐ Star this repository
-- 🔗 Share with others  
-- 💬 Give feedback
-- Follow me to get valuable resources
 
 ---
