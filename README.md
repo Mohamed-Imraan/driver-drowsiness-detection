@@ -3,6 +3,8 @@
 >  A real-time embedded safety system designed to detect driver fatigue and prevent accidents.
 
 ---
+<a href="https://www.linkedin.com/posts/mohamed-imraan-full-stack-developer_ece-iot-project-activity-7309229609332428800-t2ac?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFY3K0cBU_78C0iKCc_Q5cnqtXRuF44rzCg"><img width="1536" height="1024" alt="Micro project" src="https://github.com/user-attachments/assets/d975c40f-b253-4ea9-95af-c98a9f78ebf0" /></a>
+
 
 ## 📌 Project Overview
 
@@ -57,7 +59,7 @@ This system is designed to reduce road accidents caused by driver fatigue by pro
 3. The Arduino processes the signal from the sensor   <br>
 4. A buzzer is activated to alert the driver   <br>
 5. The relay module cuts off the motor (simulating vehicle stop)  </td>
-<td><img width="100" height="100" src="https://img.icons8.com/plasticine/100/car--v1.png" alt="car--v1"/></td> </tr></table>
+<td><img width="100" height="100"src="https://img.icons8.com/plasticine/100/car--v1.png" alt="car--v1"/></td> </tr></table>
 
 
 ## 🔄 System Flow
